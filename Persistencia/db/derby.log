@@ -1,0 +1,32 @@
+Wed Aug 17 11:21:40 BRT 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Wed Aug 17 11:21:41 BRT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0156-98e1-0c37-ffffda186f07 
+on database directory /Users/victoroka/NetBeansProjects/Persistencia/db/pokemonGo with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/Applications/NetBeans/glassfish4/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_40-b25
+user.dir=/Applications/NetBeans/glassfish4/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.6
+derby.system.home=/Users/victoroka/NetBeansProjects/Persistencia/db
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Aug 17 11:23:15 BRT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance e03f4017-0156-98e1-0c37-ffffda186f07 
+on database directory /Users/victoroka/NetBeansProjects/Persistencia/db/sun-appserv-samples with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/Applications/NetBeans/glassfish4/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_40-b25
+user.dir=/Applications/NetBeans/glassfish4/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.6
+derby.system.home=/Users/victoroka/NetBeansProjects/Persistencia/db
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Aug 17 12:05:28 BRT 2016: Shutting down Derby engine
+----------------------------------------------------------------
+Wed Aug 17 12:05:28 BRT 2016:
+Shutting down instance e03f4017-0156-98e1-0c37-ffffda186f07 on database directory /Users/victoroka/NetBeansProjects/Persistencia/db/sun-appserv-samples with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
