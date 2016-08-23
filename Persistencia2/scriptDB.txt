@@ -1,0 +1,62 @@
+create table userlp3(
+    id_userlp3 bigint not null primary key generated always as identity (start with 1, increment by 1),
+    username varchar(20) not null,
+    password varchar(32) not null
+);
+
+create table userinfo(
+    id_userinfo bigint not null primary key generated always as identity (start with 1, increment by 1),
+    firstname varchar(30),
+    latname varchar(30),
+    email varchar(50),
+    birthday date
+);
+
+create table post(
+    id_post bigint not null primary key generated always as identity (start with 1, increment by 1),
+    postdate date,
+    posttext varchar(140)
+);
+
+create table postlike(
+    id_postlike bigint not null primary key generated always as identity (start with 1, increment by 1),
+    id_post bigint,
+    poststatus int
+);
+
+create table postlist(
+    id_postlist bigint not null primary key generated always as identity (start with 1, increment by 1),
+    id_userlp3 bigint,
+    id_post bigint
+);
+
+-- RELACIONAMENTOS
+-- 1 para 1
+alter table userlp3 
+add foreign key(id_userlp3) 
+references userinfo(id_userinfo) 
+on delete cascade;
+
+-- muitos para muitos
+alter table postlist 
+add foreign key(id_userlp3) 
+references userlp3(id_userlp3) 
+on delete cascade;
+
+alter table postlist 
+add foreign key(id_post) 
+references post(id_post) 
+on delete cascade;
+
+-- 1 para muitos
+alter table postlike
+add foreign key(id_post) 
+references post(id_post) 
+on delete cascade;
+
+-- DROPS
+-- drop table postlike;
+-- drop table postlist;
+-- drop table post;
+-- drop table userlp3;
+-- drop table userinfo;
