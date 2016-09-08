@@ -1,8 +1,8 @@
-Tue Aug 23 07:51:51 BRT 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+Wed Aug 24 14:10:18 BRT 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
 ----------------------------------------------------------------
-Tue Aug 23 07:51:53 BRT 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0156-b707-15da-000068f608a1 
-on database directory /Users/victoroka/NetBeansProjects/Persistencia2/db/twitterdb with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Wed Aug 24 14:10:22 BRT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0156-bd87-e6c8-00002a790c9e 
+on database directory /Users/victoroka/GitHub/LP3/Persistencia2/db/twitterdb with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
 Loaded from file:/Applications/NetBeans/glassfish4/javadb/lib/derby.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_40-b25
@@ -10,24 +10,11 @@ user.dir=/Applications/NetBeans/glassfish4/javadb
 os.name=Mac OS X
 os.arch=x86_64
 os.version=10.11.6
-derby.system.home=/Users/victoroka/NetBeansProjects/Persistencia2/db
+derby.system.home=/Users/victoroka/GitHub/LP3/Persistencia2/db
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Tue Aug 23 07:51:58 BRT 2016:
-Shutting down instance a816c00e-0156-b707-15da-000068f608a1 on database directory /Users/victoroka/NetBeansProjects/Persistencia2/db/twitterdb with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
-Tue Aug 23 07:51:58 BRT 2016 Thread[DRDAConnThread_3,5,main] (DATABASE = twitterdb), (DRDAID = {2}), Database 'twitterdb' shutdown.
+Wed Aug 24 14:37:14 BRT 2016: Shutting down Derby engine
 ----------------------------------------------------------------
-Tue Aug 23 07:52:02 BRT 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 560740aa-0156-b707-15da-000068f608a1 
-on database directory /Users/victoroka/NetBeansProjects/Persistencia2/db/twitterdb with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
-Loaded from file:/Applications/NetBeans/glassfish4/javadb/lib/derby.jar
-java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_40-b25
-user.dir=/Applications/NetBeans/glassfish4/javadb
-os.name=Mac OS X
-os.arch=x86_64
-os.version=10.11.6
-derby.system.home=/Users/victoroka/NetBeansProjects/Persistencia2/db
-Database Class Loader started - derby.database.classpath=''
+Wed Aug 24 14:37:14 BRT 2016:
+Shutting down instance a816c00e-0156-bd87-e6c8-00002a790c9e on database directory /Users/victoroka/GitHub/LP3/Persistencia2/db/twitterdb with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
 ----------------------------------------------------------------
-Tue Aug 23 09:05:30 BRT 2016: Shutting down Derby engine
